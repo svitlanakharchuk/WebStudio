@@ -1,0 +1,21 @@
+:root {
+    /*color*/
+--main-cl: #212121;
+--accent-cl: #2196F3;
+--light-cl: #FFFFFF;
+--secondary-cl: #757575;
+--logo-cl : #000000;
+--icons-cl: #AFB1B8;
+
+    /*background-color*/
+--main-bg-cl: #FFFFFF;
+--dark-bg-cl: #2F303A;
+--secondary-bg-cl: #F5F4FA;
+--overlay-bg-cl: rgba(47, 48, 58, 0.8);
+    /*fonts*/
+--main-fn: 'Roboto', sans-serif;
+--secondary-fn: 'Raleway', sans-serif;
+    /*others*/
+--items: 3;
+--gap: 30px;
+}

@@ -1,0 +1,21 @@
+.hero-section {
+  background-color: rgba(47, 48, 58, 0.4);;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/images/index/Img.png);
+  height: 600px;
+  width: 1600px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  &__btn {
+    @extend %button;
+    position: absolute;
+    bottom: 200px;
+    left: 692px;
+  }
+}
